@@ -33,7 +33,7 @@ export default function Users() {
   });
 
   useEffect(() => {
-    setLoading(true);
+    // setLoading(true);
     getData();
   }, []);
 
@@ -173,7 +173,7 @@ export default function Users() {
           </Button>
         </Col>
       </Row>
-      <Loading enableLoading={loading} />
+      {/* <Loading enableLoading={loading} /> */}
       <Table
         columns={columns}
         dataSource={data}
